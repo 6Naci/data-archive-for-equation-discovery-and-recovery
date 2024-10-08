@@ -66,6 +66,26 @@ Each folder contains data and explanatory documents. The title also contains an 
 ```
 </details>
 
+<details>
+<summary>5. Pendulum equations </summary>
+
+```math 
+    \begin{equation}
+    \begin{gathered}
+    \begin{cases}
+    \dot\sigma  =  z, 
+    \\
+    \dot z =  -\frac{1}{\sqrt{5}} z -\sin(\sigma) + 0.2 \quad 
+    \end{cases}
+    \end{gathered}
+    \end{equation}
+```
+```math 
+ \\ t \in [0, 20],
+ \\ \sigma_0, \ z_0 = \frac{\pi}{2}, 0.5.
+```
+</details>
+
 ### Algorithms under research:
 
 - EPDE (Evolutionary Partial Differential Equations). Algorithm for the search of differential equations based on data (https://github.com/ITMO-NSS-team/EPDE)
