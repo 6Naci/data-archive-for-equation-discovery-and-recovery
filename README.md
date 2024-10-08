@@ -1,13 +1,9 @@
 # Data archive for equation discovery and recovery
 
----
 Archive of data used to explore differential equation discovery approaches.
----
 
 ## Notes
-Each folder contains data and explanatory documents. The title also contains an abbreviation for the data source.
-
-Synthetic data - s_d, Real data - r_d.
+Each folder contains data and explanatory documents. The title also contains an abbreviation for the data source. Synthetic data - s_d, Real data - r_d.
 
 ---
 ## Examples
@@ -58,9 +54,9 @@ Synthetic data - s_d, Real data - r_d.
 ```math 
  \begin{equation*}
  \begin{cases}
-  \Large\frac{\partial u}{\partial t} = \normalsize 0.55 \cdot u - 0.028 \cdot u \cdot v, 
+  \frac{\partial u}{\partial t} = \normalsize 0.55 \cdot u - 0.028 \cdot u \cdot v, 
    \\
-   \Large\frac{\partial v}{\partial t} = \normalsize - 0.84 \cdot v + 0.026 \cdot u \cdot v.
+   \frac{\partial v}{\partial t} = \normalsize - 0.84 \cdot v + 0.026 \cdot u \cdot v.
  \end{cases}
 \end{equation*}
 ```
