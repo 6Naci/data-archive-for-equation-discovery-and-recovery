@@ -20,8 +20,8 @@ Each folder contains data and explanatory documents. The title also contains an 
 ```
 
 ```math 
-\\ bc = \{u(0, t) = 0, u(1, t) = 0\},
-\\ ic = \{u(x, 0) = 10000 \sin \(\frac{1}{10}\cdot x \cdot (x-1)\)^2\}
+\\ bc = \{u(0, t) = 0, u(1, t) = 0\}, \
+\\ ic = \{u(x, 0) = 10000 \sin (\frac{1}{10}\cdot x \cdot (x-1))^2\}
 ```
 
 </details>
@@ -44,7 +44,7 @@ Each folder contains data and explanatory documents. The title also contains an 
  \frac{\partial u}{\partial t} +  u \frac{\partial u}{\partial x} = 0,
 ```
 ```math 
- \\ 256\times256, x \in [-1000; 0], t \in [0; 1].
+ \\ 100 \times100, x \in [-1000; 0], t \in [0; 1].
 ```
 </details>
 
